@@ -44,11 +44,16 @@
 }
 
 .main {
-  background: url(./imgs/unnamed.png) no-repeat;
+  background: url(./imgs/background.jpg) no-repeat;
   background-size: cover;
   height: 100vh;
   background-position: 50% 50%;
+  color: white;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .main h1 {
@@ -64,4 +69,5 @@
   background-color: rgb(248, 26, 92);
   color: white;
   border-radius: 60px;
+  font-weight: 700;
 }
